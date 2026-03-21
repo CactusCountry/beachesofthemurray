@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Destinations | Beaches of The Murray",
   description:
-    "Explore the distinct hubs and smaller towns that make up Beaches of The Murray across Moira Shire."
+    "River beaches, lake towns, produce country, and red gum forests — explore the destinations of Moira Shire."
 });
 
 export default function DestinationsPage() {
@@ -15,13 +15,13 @@ export default function DestinationsPage() {
       <DestinationGrid
         destinations={destinations}
         eyebrow="Destinations"
-        title="Choose a destination story, then let the region unfold from there."
-        description="This page now mirrors the strategy's push to break the shire into clearer destination identities, from inland beaches and lake hubs to produce country and red gum nature escapes."
+        title="Pick a place, then let the region unfold from there."
+        description="Inland beaches, lake towns, produce country, red gum forests — each part of Moira Shire has its own mood and its own reasons to linger."
       />
       <ImageCta
         eyebrow="Weekend Planning"
-        title="Pair a beach hero with a second reason to stay."
-        description="The strongest itineraries combine a hero beach or lake stop with produce, culture, golf, or events so visitors disperse and spend more locally."
+        title="Start with the beach, then add a second reason to stay."
+        description="The best weekends here combine a day on the sand with something unexpected — a produce trail, a round of golf, a red gum walk, or a local event you didn't know about."
         image="/local/beaches/thompsons-beach.jpg"
         primaryHref="/plan"
         primaryLabel="See Itineraries"

@@ -25,7 +25,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Beaches of The Murray | River Country with Salt in the Air",
   description:
-    "Discover inland beaches, year-round river escapes, produce trails, and destination-led travel across Moira Shire."
+    "Sandy river beaches, country produce, and wide open weekends across Moira Shire, Victoria."
 });
 
 export default function HomePage() {
@@ -33,8 +33,8 @@ export default function HomePage() {
     <>
       <HeroSection
         eyebrow={siteSettings.locationLabel}
-        title="Inland beaches, river towns, and year-round escapes across Moira."
-        description="Beaches of The Murray now follows the local strategy more closely: destination-led discovery, stronger non-summer appeal, and clearer links between beaches, produce, events, and operators."
+        title="Sandy beaches, river towns, and wide open weekends on the Murray."
+        description="Real beaches on a real river. Produce trails through farming country. Red gum forests older than memory. This is Moira Shire — and it's worth more than a day trip."
         image={destinations[0].heroImage}
         logoSrc="/brand/beaches-of-the-murray-logo.svg"
         primaryCta={siteSettings.primaryCta}
@@ -46,8 +46,8 @@ export default function HomePage() {
       <DestinationGrid
         destinations={getFeaturedDestinations(4)}
         eyebrow="Destinations"
-        title="Browse the shire by place, not just by activity."
-        description="The tourism strategy calls for clearer destination segmentation. This gives each hub and smaller town room to carry a distinct story while still feeling part of one Beaches of the Murray network."
+        title="Every town tells a different story. Start with the one that calls you."
+        description="From sandy river beaches and lake resorts to farm gate trails and ancient red gum forests — each corner of Moira Shire has its own character and its own reasons to stay."
         actionHref="/destinations"
         actionLabel="View All Destinations"
       />
@@ -57,8 +57,8 @@ export default function HomePage() {
       <StoryGrid stories={getFeaturedStories(4)} />
       <ImageCta
         eyebrow="Plan"
-        title="Plan a visit that works in more than one season."
-        description="The planning layer now leans into one of the strategy's biggest opportunities: helping visitors stay longer, spend more locally, and return outside peak summer."
+        title="A weekend on the Murray, any time of year."
+        description="Summer beaches, autumn produce trails, winter river walks — there's always a reason to come. Build a trip that fits the season and stay a little longer than planned."
         image="/local/lake/lake-picnic.jpg"
         primaryHref="/plan"
         primaryLabel="Build Your Weekend"

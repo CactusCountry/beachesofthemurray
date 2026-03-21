@@ -18,8 +18,8 @@ export function Footer() {
               A weekend guide to the river coast, sent when it matters.
             </h2>
             <p className="text-base leading-7 text-white/72">
-              For V1 this is a simple tourism contact CTA. It is ready to be
-              replaced by a live newsletter form or CRM integration later.
+              Seasonal picks, new beach guides, and local finds — delivered
+              when there&apos;s something worth sharing.
             </p>
             <div className="flex flex-wrap gap-3">
               <LinkButton href={`mailto:${siteSettings.contactEmail}`}>
@@ -65,7 +65,7 @@ export function Footer() {
             />
             <div>
               <p className="text-sm uppercase tracking-[0.18em] text-gold/80">
-                Inland beaches and year-round river escapes
+                River beaches, real towns, wide open weekends
               </p>
             </div>
           </div>

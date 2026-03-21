@@ -4,19 +4,19 @@ import { SectionIntro } from "@/components/ui/section-intro";
 
 const focusItems = [
   {
-    title: "Year-round visitation",
+    title: "Every season has a story",
     description:
-      "Use non-summer content, winter stays, and shoulder-season reasons to visit so the region is not defined by one peak season."
+      "Summer beaches, autumn produce trails, winter river walks, spring wildflowers. The Murray doesn't shut down when the temperature drops — it just changes character."
   },
   {
-    title: "Destination-led discovery",
+    title: "Start with a place, not a list",
     description:
-      "Break the shire into memorable places so visitors can browse by place first, then deepen into stays, events, produce, and local operators."
+      "Each town and stretch of river here has its own personality. Browse by destination first, then let the stays, food, events, and experiences unfold from there."
   },
   {
-    title: "Longer stays, higher spend",
+    title: "Stay longer, see more",
     description:
-      "Link beaches with produce, lake leisure, events, and culture to move visitors beyond a single-stop day trip."
+      "Pair a beach day with a produce trail. Add a round of golf to a lake stay. The best trips here layer two or three experiences together — and that's what turns a day trip into a weekend."
   }
 ];
 
@@ -25,9 +25,9 @@ export function StrategyFocus() {
     <section className="bg-white py-24 sm:py-28">
       <Container className="space-y-12">
         <SectionIntro
-          eyebrow="Strategy Lens"
-          title="Built around the priorities in the local tourism strategy."
-          description="This revision shifts the site toward the structure in the strategy document: year-round reasons to visit, clearer destination segmentation, and stronger links between beaches, produce, events, and operators."
+          eyebrow="Why The Murray"
+          title="More than a summer holiday. More than one town."
+          description="The beaches are the starting point, but the region runs deeper — through produce country, red gum forests, lake towns, and local stories that reward the people who stay a little longer."
         />
         <div className="grid gap-5 lg:grid-cols-3">
           {focusItems.map((item, index) => (

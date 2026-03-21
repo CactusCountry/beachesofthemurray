@@ -16,8 +16,8 @@ export function StoryGrid({ stories }: StoryGridProps) {
       <Container className="space-y-12">
         <SectionIntro
           eyebrow="Stories"
-          title="Stories that help the region feel bigger than one summer holiday."
-          description="Editorial content is doing strategy work here: building non-summer appeal, packaging local produce, and helping smaller destinations shine through itineraries and features."
+          title="Stories from the river, the trail, and the towns in between."
+          description="Weekend itineraries, seasonal guides, and local dispatches that show you the Murray beyond the obvious — quieter beaches, winter escapes, farm gate detours, and the places only the locals talk about."
           action={
             <LinkButton href="/stories" variant="ghost">
               Browse All Stories

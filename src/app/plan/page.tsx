@@ -8,19 +8,19 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Plan | Beaches of The Murray",
   description:
-    "Use itineraries, travel notes, events thinking, and seasonal guidance to plan a Beaches of The Murray trip."
+    "Weekend itineraries, seasonal guides, and practical tips for planning your Beaches of The Murray trip."
 });
 
 const travelNotes = [
-  "Most visits work best as a drive-market itinerary linking one beach or lake hub with one produce, culture, or nature stop.",
-  "Longer stays are easiest to win when planning content clearly packages destinations together instead of treating each town in isolation.",
-  "Wayfinding, town maps, and clear visitor information remain part of the strategy, so planning pages should eventually connect to stronger local orientation tools."
+  "The easiest way to build a trip is to pick one beach or lake town as your base, then add a produce stop, a nature walk, or a local event as your second reason to stay.",
+  "The towns here are close enough to link together — a beach morning in Tocumwal pairs naturally with an afternoon on the Numurkah farm gate trail, or a lake day at Yarrawonga with a drive through Barmah.",
+  "Local visitor information centres in Cobram, Yarrawonga, and Tocumwal can help with maps, conditions, and recommendations once you arrive."
 ];
 
 const seasonalNotes = [
-  "Summer is the hero season for beaches, family water play, and active river itineraries.",
-  "Autumn is ideal for produce trails, slower weekends, and road-trip dispersal into smaller towns.",
-  "Winter is the biggest growth opportunity: low-season stays, events, golf, and red gum country can all carry the trip."
+  "Summer brings the classic river holiday — sandy beaches, long swims, and family days on the water that stretch until the light fades.",
+  "Autumn is for the food lovers and the wanderers. Produce trails, quieter towns, golden light through the red gums, and weekends that feel unhurried.",
+  "Winter is the region's best-kept secret. Fog on the river, empty beaches, warm pubs, great golf, and Barmah at its most atmospheric."
 ];
 
 export default function PlanPage() {
@@ -30,8 +30,8 @@ export default function PlanPage() {
         <Container className="space-y-14">
           <SectionIntro
             eyebrow="Plan"
-            title="Everything you need to turn a beach stop into a fuller regional trip."
-            description="This page is now closer to the strategy: itinerary packaging, seasonality, visitor information thinking, and clearer reasons to stay longer."
+            title="Turn a beach stop into a proper weekend away."
+            description="Ready-made itineraries, seasonal tips, and practical notes to help you get more out of every visit — whatever the time of year."
           />
 
           <div className="grid gap-6 lg:grid-cols-3">
@@ -69,8 +69,8 @@ export default function PlanPage() {
           <Reveal>
             <SectionIntro
               eyebrow="Travel Notes"
-              title="A few practical cues help the whole region feel easier to navigate."
-              description="These notes intentionally echo the strategy's focus on visitor servicing, wayfinding, and helping destinations work together rather than in silos."
+              title="A few things worth knowing before you go."
+              description="Practical notes to help you navigate the region, link destinations together, and make the most of your time on the Murray."
             />
           </Reveal>
           <Reveal delay={0.12}>
@@ -91,7 +91,7 @@ export default function PlanPage() {
             <SectionIntro
               eyebrow="Seasonal Notes"
               title="The region shifts in mood with the light."
-              description="Seasonality is a structural part of the strategy, especially for building a stronger non-summer proposition."
+              description="Every season brings a different version of this place. Here's what to expect."
               tone="light"
               className="max-w-xl"
             />
@@ -113,7 +113,7 @@ export default function PlanPage() {
           <div className="max-w-2xl space-y-3">
             <p className="text-xs uppercase tracking-[0.28em] text-river">Next Step</p>
             <h2 className="font-display text-4xl leading-none text-ink sm:text-5xl">
-              Choose the beach or hub first, then layer in the second reason to stay.
+              Pick your beach, then build the weekend around it.
             </h2>
           </div>
           <div className="flex flex-wrap gap-3">

@@ -18,8 +18,8 @@ export function FeaturedBeachesSection({
       <Container className="space-y-12">
         <SectionIntro
           eyebrow="Beach Highlights"
-          title="The first real beach imagery is in, and it changes the page immediately."
-          description="These four named beaches now give the brand something concrete to stand on. This section is also the scaffold we can keep extending as you feed through more towns, beaches, and operator images."
+          title="Four beaches, four different ways to spend the afternoon."
+          description="Each stretch of the Murray has its own mood — from wide sandy shores perfect for families to quieter bends where the only sound is the water."
         />
 
         <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">

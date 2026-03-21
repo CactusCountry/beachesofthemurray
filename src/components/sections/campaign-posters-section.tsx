@@ -20,8 +20,8 @@ export function CampaignPostersSection({
       <Container className="space-y-12">
         <SectionIntro
           eyebrow="Campaign"
-          title="A destination brand should feel like a postcard before it feels like a directory."
-          description="These Figma campaign frames give the site a stronger branded layer while we keep folding in the full photo library from towns, operators, and beaches."
+          title="The kind of place that looks like a postcard — because it is one."
+          description="Sandy riverbanks, golden light, red gums, and wide open water. These are the moments that make people stop scrolling and start planning."
           tone="light"
         />
 

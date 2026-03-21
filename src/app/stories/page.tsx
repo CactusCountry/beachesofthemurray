@@ -7,7 +7,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Stories | Beaches of The Murray",
   description:
-    "Read stories, local notes, and year-round itinerary inspiration for Beaches of The Murray."
+    "Local stories, seasonal guides, and weekend inspiration from the Beaches of The Murray."
 });
 
 export default function StoriesPage() {
@@ -17,8 +17,8 @@ export default function StoriesPage() {
         <Container className="space-y-12">
           <SectionIntro
             eyebrow="Stories"
-            title="Editorial pieces that help the strategy travel through the site."
-            description="This archive now leans into the local tourism themes you shared: year-round appeal, smaller destinations, and stronger links between beaches, produce, events, and nature."
+            title="Dispatches from the river, the towns, and the trail."
+            description="Itineraries, seasonal guides, and local stories that show you what a weekend on the Murray really looks like — in every season, across every corner of the shire."
           />
 
           <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">

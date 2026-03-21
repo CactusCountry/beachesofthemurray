@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "See & Do | Beaches of The Murray",
   description:
-    "Browse strategy-led experiences across Beaches of The Murray, from beaches and produce to golf, events, and red gum country."
+    "River beaches, farm gate trails, lake leisure, golf, nature walks, and events across Moira Shire."
 });
 
 export default function SeeDoPage() {
@@ -15,8 +15,8 @@ export default function SeeDoPage() {
       <ExperienceShowcase experiences={experiences} />
       <ImageCta
         eyebrow="Stay Longer"
-        title="The best itineraries mix a hero water stop with a second layer."
-        description="That second layer might be produce, a golf round, a winter event, or a red gum detour. The strategy is clear that broader reasons to visit matter."
+        title="The best days here have two chapters."
+        description="A morning on the beach followed by a produce trail. A lake swim then a round of golf. A river walk and a winter event. Layer two experiences together and a day trip becomes a weekend."
         image="/local/experiences/cactus-country.jpg"
         primaryHref="/plan"
         primaryLabel="Plan the Route"

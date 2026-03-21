@@ -121,9 +121,9 @@ export default async function DestinationPage({ params }: DestinationPageProps) 
               The textures of the place matter.
             </h2>
             <p className="max-w-lg text-base leading-7 text-ink/72">
-              Destination detail pages are designed to feel editorial rather than
-              directory-like, with big imagery, clear highlights, and links back
-              into the wider site.
+              The light on the water, the colour of the sand, the shape of the
+              gum trees — every stretch of river here looks and feels a little
+              different.
             </p>
           </Reveal>
 

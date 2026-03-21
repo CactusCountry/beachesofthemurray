@@ -13,7 +13,7 @@ export const experiences: Experience[] = [
     name: "Beaches & River Play",
     category: "Beaches",
     summary:
-      "Position the inland beaches as a genuine hero product, with sandy entries, water play, and the nostalgic Australian holiday feel the strategy leans into.",
+      "Sandy entries, shallow water for kids, gum-lined shade, and that unmistakable Australian river-holiday feeling. These are real beaches — just without the salt.",
     image: "/local/beaches/thompsons-beach.jpg",
     relatedDestinations: ["tocumwal-beaches", "thompsons-beach-cobram-barooga", "bundalong-and-the-junction"]
   },
@@ -22,7 +22,7 @@ export const experiences: Experience[] = [
     name: "Farm Gate & Local Produce",
     category: "Food & Produce",
     summary:
-      "Promote the agricultural heartland through produce, tasting stops, and regional makers so visitors spend more and stay longer.",
+      "Follow the farm gate trail through olive groves, artisan kitchens, and cellar doors. The produce here is a reason to visit in its own right — and it pairs beautifully with a beach day.",
     image: "/local/produce/manto-produce.jpg",
     relatedDestinations: ["numurkah-and-farm-gate", "thompsons-beach-cobram-barooga"]
   },
@@ -31,7 +31,7 @@ export const experiences: Experience[] = [
     name: "Golf, Lake & Leisure",
     category: "Leisure",
     summary:
-      "Support the strategy's growth audience with polished lake stays, golfing weekends, and low-season travel reasons beyond peak summer.",
+      "Lakefront resorts, championship golf courses, and long afternoons on the water. A more polished side of the Murray that works beautifully in the cooler months too.",
     image: "/local/lake/sebel-lake.jpg",
     relatedDestinations: ["yarrawonga-mulwala", "thompsons-beach-cobram-barooga"]
   },
@@ -40,7 +40,7 @@ export const experiences: Experience[] = [
     name: "Culture, Nature & Red Gums",
     category: "Nature",
     summary:
-      "Build a stronger non-summer story through the Barmah forest, wildlife, cultural heritage, and quieter road-trip discovery.",
+      "Walk through ancient river red gums, spot wildlife in the wetlands, and discover the heritage stories of towns most visitors drive past. This is where the Murray feels truly timeless.",
     image: "/local/nature/paddock-ulupna-creek.jpg",
     relatedDestinations: ["barmah-and-nathalia", "numurkah-and-farm-gate"]
   },
@@ -49,7 +49,7 @@ export const experiences: Experience[] = [
     name: "Events & Road Trips",
     category: "Events",
     summary:
-      "Support year-round visitation with event moments, silo art detours, and multi-stop itineraries that connect the region's smaller destinations.",
+      "Seasonal festivals, silo art trails, and multi-stop road trips that connect the quieter corners of the shire. There's always something on, and always a reason to come back.",
     image: "/local/experiences/cactus-country.jpg",
     relatedDestinations: ["yarrawonga-mulwala", "barmah-and-nathalia", "tocumwal-beaches"]
   }

@@ -20,8 +20,8 @@ export default function StayPage() {
         <Container className="space-y-12">
           <SectionIntro
             eyebrow="Stay"
-            title="Pick the style of stay that helps the trip run longer."
-            description="The tourism strategy calls out both premium river-view accommodation and family-friendly holiday product. This page makes room for both."
+            title="Choose how you want to wake up on the Murray."
+            description="Lakefront resorts with water views, riverside cabins with character, family holiday parks by the beach, or quiet nature lodges surrounded by bush. The right stay turns a visit into a proper escape."
           />
 
           <div className="grid gap-6 md:grid-cols-2">
@@ -53,8 +53,8 @@ export default function StayPage() {
         <Container className="space-y-10">
           <SectionIntro
             eyebrow="Where To Base Yourself"
-            title="Match the stay style to the destination strategy."
-            description="Each hub can now support a slightly different audience mix, from family beach holidays to lake leisure and quieter nature-led breaks."
+            title="Match your stay to the destination."
+            description="Each part of Moira Shire has its own rhythm — family beach towns, polished lake resorts, produce country pit stops, and quieter nature retreats. Find the one that fits."
           />
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {destinations.map((destination, index) => (
@@ -79,11 +79,11 @@ export default function StayPage() {
 
       <ImageCta
         eyebrow="Next"
-        title="Pair the stay with beaches, produce, events, or golf."
-        description="Accommodation works harder when it is connected to the wider destination story, not left as a dead-end booking category."
+        title="Now pair your stay with something to do."
+        description="A beach day, a produce trail, a golf round, a river walk — the best trips here weave the stay and the experience together."
         image="/local/lake/sebel-lake.jpg"
         primaryHref="/plan"
-        primaryLabel="Go To Planning"
+        primaryLabel="Plan Your Trip"
       />
     </div>
   );

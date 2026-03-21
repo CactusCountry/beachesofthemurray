@@ -41,7 +41,7 @@ export const beachHighlights: BeachHighlight[] = [
     region: "Near Sonnemans",
     image: "/beaches/hennessy-beach.jpg",
     description:
-      "A gentle bend of river with open water and relaxed shoreline access, ideal for showing the softness of these inland beaches.",
+      "A gentle bend of river with open water and relaxed shoreline access — soft sand, dappled light, and the quiet hum of an afternoon going nowhere.",
     href: "/plan"
   }
 ];

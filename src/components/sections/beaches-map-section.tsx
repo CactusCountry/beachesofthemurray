@@ -17,10 +17,9 @@ export function BeachesMapSection() {
               Find your stretch of river before you choose your town.
             </h2>
             <p className="text-base leading-7 text-ink/72 sm:text-lg">
-              This branded map works as the site&apos;s orientation layer: it shows
-              the breadth of Beaches of the Murray in one glance and gives us a
-              clear place to start attaching beach, town, and operator imagery as
-              the build grows.
+              From Tocumwal&apos;s sandy banks to Bundalong&apos;s river junction,
+              the beaches here stretch across the shire. Find the one closest to
+              where you want to be, then start building the trip around it.
             </p>
             <div className="flex flex-wrap gap-3">
               <LinkButton href="/destinations">Browse Destinations</LinkButton>

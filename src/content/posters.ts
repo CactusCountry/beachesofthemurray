@@ -10,21 +10,21 @@ export const brandPosters: BrandPoster[] = [
   {
     slug: "thompsons-beach-campaign",
     title: "Thompsons Beach",
-    caption: "Aerial campaign artwork that makes the inland-beach idea feel iconic at a glance.",
+    caption: "Golden sand, blue river, red gums — the inland beach from above.",
     image: "/campaign/thompsons-beach-poster.png",
     href: "/destinations/thompsons-beach-cobram-barooga"
   },
   {
     slug: "river-play-campaign",
     title: "River Play",
-    caption: "Tall social-style artwork that brings energy and movement into the brand system.",
+    caption: "The energy of a summer afternoon on the Murray, captured in a single frame.",
     image: "/campaign/river-play-poster.png",
     href: "/see-do"
   },
   {
     slug: "family-river-campaign",
     title: "Family Beach Days",
-    caption: "A lighter family moment that helps the site feel warm, local, and holiday-led.",
+    caption: "Warm light, bare feet, and nowhere else to be. That's the feeling.",
     image: "/campaign/family-river-poster.png",
     href: "/plan"
   }

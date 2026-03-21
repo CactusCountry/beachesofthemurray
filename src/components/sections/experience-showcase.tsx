@@ -15,8 +15,8 @@ export function ExperienceShowcase({ experiences }: ExperienceShowcaseProps) {
       <Container className="space-y-12">
         <SectionIntro
           eyebrow="See & Do"
-          title="Beaches, produce, lake leisure, and reasons to return in winter."
-          description="These experience categories are now mapped more directly to the strategy: hero beach product, agricultural heartland, stronger non-summer content, and event-led visitation."
+          title="Beaches, produce, lake days, and reasons to come back in winter."
+          description="From sandy river swims and farm gate trails to championship golf, ancient forests, and year-round events — there's more here than you'd expect, and more than one season can hold."
         />
 
         <div className="grid gap-6">
