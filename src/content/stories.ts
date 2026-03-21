@@ -9,55 +9,55 @@ export type Story = {
 
 export const stories: Story[] = [
   {
-    slug: "a-year-round-beaches-of-the-murray-weekend",
-    title: "A Year-Round Beaches of the Murray Weekend",
+    slug: "a-weekend-on-the-murray",
+    title: "How to Spend a Weekend on the Murray",
     excerpt:
-      "Beaches in the morning, a produce stop after lunch, red gums before sunset. Here's how to build a weekend on the Murray that works in any month.",
+      "Thompsons Beach in the morning. The Farm Gate Trail after lunch. Barmah before the light goes. A Murray weekend that works just as well in April as it does in January.",
     image: "/local/beaches/thompsons-beach.jpg",
-    theme: "Year-Round",
+    theme: "Weekend Guide",
     readTime: "4 min read"
   },
   {
     slug: "winter-on-the-river",
-    title: "Why Winter on the River Is Worth the Drive",
+    title: "The Murray in Winter",
     excerpt:
-      "Fog on the river, empty beaches, and the best dining without the wait. Winter on the Murray is quieter, slower, and worth every kilometre.",
+      "Fog on the river at seven. Empty sand at Tocumwal by nine. A long lunch at Cobram without a booking queue. Winter down here is a different place entirely, and most people don't know about it yet.",
     image: "/local/nature/paddock-ulupna-creek.jpg",
     theme: "Winter",
     readTime: "3 min read"
   },
   {
     slug: "best-family-friendly-beach-days",
-    title: "Best Family-Friendly Beach Days on the Murray",
+    title: "Three River Beaches, Three Different Holidays",
     excerpt:
-      "Thompsons Beach, Tocumwal, and Bundalong each offer a different version of the classic family river holiday.",
+      "Thompsons has the floodlights and the facilities. Tocumwal has twenty-four beaches and the Chocolate School. Bundalong has the junction and the sandbars. Same river, different weekends.",
     image: "/beaches/carters-beach.jpg",
     theme: "Family",
     readTime: "5 min read"
   },
   {
     slug: "farm-gate-trail-weekend",
-    title: "A Farm Gate Trail Weekend Through Numurkah",
+    title: "Eating Your Way Through Numurkah",
     excerpt:
-      "Use local produce as the anchor for a shoulder-season weekend that links paddocks, tasting stops, and nearby beaches.",
+      "Purple garlic from a roadside honesty box. Cold-pressed olive oil at Rich Glen. A cellar door you nearly drove past. The Farm Gate Trail is the best reason to visit in the shoulder season.",
     image: "/local/produce/manto-produce.jpg",
     theme: "Produce",
     readTime: "4 min read"
   },
   {
     slug: "golf-and-lake-getaway",
-    title: "A Golf and Lake Getaway Around Yarrawonga",
+    title: "Lake Mulwala, the Sunken Forest, and 54 Holes of Golf",
     excerpt:
-      "Lake views from your balcony, a round at one of regional Victoria's best courses, and dinner that surprises. A polished weekend for couples and groups.",
+      "The Black Bull Championship course at Yarrawonga is one of regional Victoria's best. The lake has a drowned red gum forest that looks like nowhere else on earth. Put them together and you've got a weekend.",
     image: "/local/lake/lake-picnic.jpg",
     theme: "Leisure",
     readTime: "3 min read"
   },
   {
     slug: "barmah-red-gum-road",
-    title: "Barmah Red Gum Road: A Nature-Led Detour",
+    title: "Into the Red Gums: Barmah by the Back Road",
     excerpt:
-      "Drive through the world's largest river red gum forest, stop in towns with more character than traffic, and see a side of the Murray that has nothing to do with sand.",
+      "The world's largest river red gum forest. The Dharnya Centre on Yorta Yorta country. Towns where the pub is the main event. A day trip for people who'd rather take the long way.",
     image: "/beaches/ulupna-beach.jpg",
     theme: "Nature",
     readTime: "6 min read"

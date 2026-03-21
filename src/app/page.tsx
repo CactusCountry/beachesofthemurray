@@ -23,9 +23,9 @@ import {
 import { buildMetadata } from "@/lib/metadata";
 
 export const metadata = buildMetadata({
-  title: "Beaches of The Murray | River Country with Salt in the Air",
+  title: "Beaches of The Murray | Where the River Meets the Sand",
   description:
-    "Sandy river beaches, country produce, and wide open weekends across Moira Shire, Victoria."
+    "Sandy river beaches, farm gate trails, and country towns worth staying for. Moira Shire, Victoria."
 });
 
 export default function HomePage() {
@@ -33,8 +33,8 @@ export default function HomePage() {
     <>
       <HeroSection
         eyebrow={siteSettings.locationLabel}
-        title="Sandy beaches, river towns, and wide open weekends on the Murray."
-        description="Real beaches on a real river. Produce trails through farming country. Red gum forests older than memory. This is Moira Shire — and it's worth more than a day trip."
+        title="Real beaches on a real river. Country towns that are worth the stay."
+        description="Sandy river beaches you can drive to from Melbourne. Farm gates selling what they grew that morning. Red gum forests older than the colony. This is Moira Shire, on the Murray, and one night here has a habit of turning into three."
         image={destinations[0].heroImage}
         logoSrc="/brand/beaches-of-the-murray-logo.svg"
         primaryCta={siteSettings.primaryCta}
@@ -46,8 +46,8 @@ export default function HomePage() {
       <DestinationGrid
         destinations={getFeaturedDestinations(4)}
         eyebrow="Destinations"
-        title="Every town tells a different story. Start with the one that calls you."
-        description="From sandy river beaches and lake resorts to farm gate trails and ancient red gum forests — each corner of Moira Shire has its own character and its own reasons to stay."
+        title="Six destinations. Each one a different kind of weekend."
+        description="Tocumwal has the beaches. Cobram has Thompsons Beach and the golf. Yarrawonga has the lake. Barmah has the forest. Numurkah has the food. Bundalong has the junction. Pick one and go from there."
         actionHref="/destinations"
         actionLabel="View All Destinations"
       />
@@ -57,11 +57,11 @@ export default function HomePage() {
       <StoryGrid stories={getFeaturedStories(4)} />
       <ImageCta
         eyebrow="Plan"
-        title="A weekend on the Murray, any time of year."
-        description="Summer beaches, autumn produce trails, winter river walks — there's always a reason to come. Build a trip that fits the season and stay a little longer than planned."
+        title="The Murray changes with the season. Every version is worth the drive."
+        description="Summer is for the beaches. Autumn is for the Farm Gate Trail. Winter is for Barmah, empty sand, and long lunches without a wait. Pick your season."
         image="/local/lake/lake-picnic.jpg"
         primaryHref="/plan"
-        primaryLabel="Build Your Weekend"
+        primaryLabel="Explore Weekends"
         secondaryHref="/stay"
         secondaryLabel="Find a Stay"
       />

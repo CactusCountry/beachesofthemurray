@@ -4,19 +4,19 @@ import { SectionIntro } from "@/components/ui/section-intro";
 
 const focusItems = [
   {
-    title: "Every season has a story",
+    title: "Not just a summer place",
     description:
-      "Summer beaches, autumn produce trails, winter river walks, spring wildflowers. The Murray doesn't shut down when the temperature drops — it just changes character."
+      "Summer is the obvious season, and the beaches are brilliant. But autumn on the Farm Gate Trail, winter in Barmah, and spring on the golf courses are all worth the drive. The locals will tell you winter is their favourite."
   },
   {
-    title: "Start with a place, not a list",
+    title: "Every town is different",
     description:
-      "Each town and stretch of river here has its own personality. Browse by destination first, then let the stays, food, events, and experiences unfold from there."
+      "Tocumwal has twenty-four beaches and a chocolate school. Cobram has nationally ranked sand and championship golf. Yarrawonga has the lake and the sunken forest. They're all within an hour of each other, but they don't feel alike."
   },
   {
-    title: "Stay longer, see more",
+    title: "One night becomes three",
     description:
-      "Pair a beach day with a produce trail. Add a round of golf to a lake stay. The best trips here layer two or three experiences together — and that's what turns a day trip into a weekend."
+      "You come for the beach. Then someone mentions the Farm Gate Trail, or Cactus Country, or the Dharnya Centre, and you add a day. That's how it works here. The region rewards the people who stay."
   }
 ];
 
@@ -26,8 +26,8 @@ export function StrategyFocus() {
       <Container className="space-y-12">
         <SectionIntro
           eyebrow="Why The Murray"
-          title="More than a summer holiday. More than one town."
-          description="The beaches are the starting point, but the region runs deeper — through produce country, red gum forests, lake towns, and local stories that reward the people who stay a little longer."
+          title="Beaches first. Then the rest unfolds."
+          description="Most people come for the river and the sand. Then they find the food, the forest, the golf, the lake, the towns. That's when a day trip becomes a weekend."
         />
         <div className="grid gap-5 lg:grid-cols-3">
           {focusItems.map((item, index) => (

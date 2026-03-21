@@ -17,8 +17,8 @@ export default function StoriesPage() {
         <Container className="space-y-12">
           <SectionIntro
             eyebrow="Stories"
-            title="Dispatches from the river, the towns, and the trail."
-            description="Itineraries, seasonal guides, and local stories that show you what a weekend on the Murray really looks like — in every season, across every corner of the shire."
+            title="What a weekend here actually looks like."
+            description="Itineraries, seasonal guides, and honest accounts of the places worth visiting, the food worth stopping for, and the drives worth taking the long way."
           />
 
           <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">

@@ -35,12 +35,12 @@ export type SiteSettings = {
 
 export const siteSettings: SiteSettings = {
   brandName: "Beaches of The Murray",
-  brandTagline: "River beaches, real towns, wide open weekends",
+  brandTagline: "Where the river meets the sand",
   description:
-    "Sandy river beaches, country produce, red gum forests, and wide open weekends across Moira Shire, Victoria. This is the Murray at its best.",
+    "Sandy river beaches, farm gate trails, and country towns worth staying for. Moira Shire, Victoria — on the Murray.",
   locationLabel: "Moira Shire, Victoria",
   primaryCta: {
-    label: "Plan Your Escape",
+    label: "Start Exploring",
     href: "/plan"
   },
   secondaryCta: {

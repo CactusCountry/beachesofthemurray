@@ -12,15 +12,15 @@ export const metadata = buildMetadata({
 });
 
 const travelNotes = [
-  "The easiest way to build a trip is to pick one beach or lake town as your base, then add a produce stop, a nature walk, or a local event as your second reason to stay.",
-  "The towns here are close enough to link together — a beach morning in Tocumwal pairs naturally with an afternoon on the Numurkah farm gate trail, or a lake day at Yarrawonga with a drive through Barmah.",
-  "Local visitor information centres in Cobram, Yarrawonga, and Tocumwal can help with maps, conditions, and recommendations once you arrive."
+  "Pick a town as your base and work outward. Cobram for the beaches and golf. Yarrawonga for the lake and the resorts. Tocumwal for the river and the bush camping. Then add one thing you didn't plan for.",
+  "Everything is close. Tocumwal to Cobram is forty minutes. Yarrawonga to Barmah is under an hour. You can swim at Thompsons Beach in the morning and be on the Farm Gate Trail by lunch.",
+  "Visitor information centres in Cobram, Yarrawonga, and Tocumwal are staffed by locals. They know which beaches are quiet, which farm gates are open, and where to eat."
 ];
 
 const seasonalNotes = [
-  "Summer brings the classic river holiday — sandy beaches, long swims, and family days on the water that stretch until the light fades.",
-  "Autumn is for the food lovers and the wanderers. Produce trails, quieter towns, golden light through the red gums, and weekends that feel unhurried.",
-  "Winter is the region's best-kept secret. Fog on the river, empty beaches, warm pubs, great golf, and Barmah at its most atmospheric."
+  "Summer is when the beaches fill up. Thompsons Beach turns on the floodlights. Lake Mulwala is warm enough for skiing. Holiday parks book out months early. If you're coming in January, book now.",
+  "Autumn is the best-kept season. The Farm Gate Trail peaks. Barmah's red gums turn gold. The towns are quieter, the restaurants don't need bookings, and the light is better for photographs.",
+  "Winter down here is genuinely underrated. Fog on the Murray at dawn. Empty sand at Tocumwal. The golf courses to yourself. A pub lunch in Nathalia with no queue. If you like places when they're quiet, this is when to come."
 ];
 
 export default function PlanPage() {
@@ -30,8 +30,8 @@ export default function PlanPage() {
         <Container className="space-y-14">
           <SectionIntro
             eyebrow="Plan"
-            title="Turn a beach stop into a proper weekend away."
-            description="Ready-made itineraries, seasonal tips, and practical notes to help you get more out of every visit — whatever the time of year."
+            title="Three weekends, ready to go."
+            description="We've mapped out a few of our favourite trips. Steal the whole thing or just take the parts that interest you."
           />
 
           <div className="grid gap-6 lg:grid-cols-3">
@@ -90,8 +90,8 @@ export default function PlanPage() {
           <Reveal>
             <SectionIntro
               eyebrow="Seasonal Notes"
-              title="The region shifts in mood with the light."
-              description="Every season brings a different version of this place. Here's what to expect."
+              title="Same river, different trip."
+              description="What you get depends on when you come. Here's the honest version."
               tone="light"
               className="max-w-xl"
             />
@@ -113,7 +113,7 @@ export default function PlanPage() {
           <div className="max-w-2xl space-y-3">
             <p className="text-xs uppercase tracking-[0.28em] text-river">Next Step</p>
             <h2 className="font-display text-4xl leading-none text-ink sm:text-5xl">
-              Pick your beach, then build the weekend around it.
+              Pick a town. The weekend builds itself.
             </h2>
           </div>
           <div className="flex flex-wrap gap-3">

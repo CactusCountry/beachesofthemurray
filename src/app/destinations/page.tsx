@@ -15,16 +15,16 @@ export default function DestinationsPage() {
       <DestinationGrid
         destinations={destinations}
         eyebrow="Destinations"
-        title="Pick a place, then let the region unfold from there."
-        description="Inland beaches, lake towns, produce country, red gum forests — each part of Moira Shire has its own mood and its own reasons to linger."
+        title="Six towns, six different weekends."
+        description="River beaches at Tocumwal and Cobram. A lake with a sunken forest at Yarrawonga. Ancient red gums at Barmah. Farm gates through Numurkah. A boat ramp and a sandbar at Bundalong. Same shire, different trips."
       />
       <ImageCta
-        eyebrow="Weekend Planning"
-        title="Start with the beach, then add a second reason to stay."
-        description="The best weekends here combine a day on the sand with something unexpected — a produce trail, a round of golf, a red gum walk, or a local event you didn't know about."
+        eyebrow="Weekend Ideas"
+        title="A beach morning, then something you didn't plan."
+        description="Thompsons Beach in the morning, Cactus Country after lunch. A swim at Tocumwal, then chocolate-making at the Chocolate School. The best days here are the ones where the second half surprises you."
         image="/local/beaches/thompsons-beach.jpg"
         primaryHref="/plan"
-        primaryLabel="See Itineraries"
+        primaryLabel="Weekend Inspiration"
         secondaryHref="/see-do"
         secondaryLabel="Explore Experiences"
       />

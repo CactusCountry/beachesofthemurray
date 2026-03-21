@@ -15,13 +15,13 @@ export default function SeeDoPage() {
       <ExperienceShowcase experiences={experiences} />
       <ImageCta
         eyebrow="Stay Longer"
-        title="The best days here have two chapters."
-        description="A morning on the beach followed by a produce trail. A lake swim then a round of golf. A river walk and a winter event. Layer two experiences together and a day trip becomes a weekend."
+        title="Morning on the sand. Afternoon somewhere you didn't expect."
+        description="A swim at Thompsons Beach, then twelve acres of cacti at Cactus Country. A round at the Black Bull course, then Lake Mulwala's sunken forest at sunset. A walk through Barmah, then a pub lunch in Nathalia. Two things in one day, and suddenly you're staying the weekend."
         image="/local/experiences/cactus-country.jpg"
         primaryHref="/plan"
-        primaryLabel="Plan the Route"
+        primaryLabel="Explore Weekends"
         secondaryHref="/destinations"
-        secondaryLabel="Choose a Base"
+        secondaryLabel="Pick a Destination"
       />
     </div>
   );

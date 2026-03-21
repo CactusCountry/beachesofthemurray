@@ -10,21 +10,21 @@ export const brandPosters: BrandPoster[] = [
   {
     slug: "thompsons-beach-campaign",
     title: "Thompsons Beach",
-    caption: "Golden sand, blue river, red gums — the inland beach from above.",
+    caption: "One of Australia's best beaches. It just happens to be on a river.",
     image: "/campaign/thompsons-beach-poster.png",
     href: "/destinations/thompsons-beach-cobram-barooga"
   },
   {
     slug: "river-play-campaign",
     title: "River Play",
-    caption: "The energy of a summer afternoon on the Murray, captured in a single frame.",
+    caption: "A summer afternoon on the Murray. No further context required.",
     image: "/campaign/river-play-poster.png",
     href: "/see-do"
   },
   {
     slug: "family-river-campaign",
     title: "Family Beach Days",
-    caption: "Warm light, bare feet, and nowhere else to be. That's the feeling.",
+    caption: "Bare feet, warm sand, nowhere to be. The Murray in one frame.",
     image: "/campaign/family-river-poster.png",
     href: "/plan"
   }

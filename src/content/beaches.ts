@@ -14,7 +14,7 @@ export const beachHighlights: BeachHighlight[] = [
     region: "Tocumwal",
     image: "/beaches/tocumwal-town-beach.jpg",
     description:
-      "An easy riverfront starting point close to town, with broad views, gum-lined edges, and a classic family holiday feel.",
+      "The main beach in a town that has twenty-four of them. Wide sand, big red gums, shallow water, and a five-minute walk to the shops.",
     href: "/destinations/tocumwal-beaches"
   },
   {
@@ -23,7 +23,7 @@ export const beachHighlights: BeachHighlight[] = [
     region: "Cobram",
     image: "/local/beaches/thompsons-beach.jpg",
     description:
-      "Golden light, broad sand, and an effortless family-holiday mood make Thompsons one of the clearest hero beaches in the region.",
+      "Voted one of Australia's best beaches. Pale sand, enormous red gums, and floodlights so families stay on after dark in summer.",
     href: "/destinations/thompsons-beach-cobram-barooga"
   },
   {
@@ -32,7 +32,7 @@ export const beachHighlights: BeachHighlight[] = [
     region: "Ulupna",
     image: "/beaches/ulupna-beach.jpg",
     description:
-      "A quieter, shade-framed stretch of river made for lingering, picnics, and slower family time by the water.",
+      "Quieter than the town beaches. Heavy shade, a grassy bank, and the kind of spot you find with a picnic rug and don't leave until the light changes.",
     href: "/plan"
   },
   {
@@ -41,7 +41,7 @@ export const beachHighlights: BeachHighlight[] = [
     region: "Near Sonnemans",
     image: "/beaches/hennessy-beach.jpg",
     description:
-      "A gentle bend of river with open water and relaxed shoreline access — soft sand, dappled light, and the quiet hum of an afternoon going nowhere.",
+      "A gentle bend with soft sand and open water. No facilities, no crowds. Just the river and whatever you brought with you.",
     href: "/plan"
   }
 ];

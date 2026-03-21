@@ -20,8 +20,8 @@ export default function StayPage() {
         <Container className="space-y-12">
           <SectionIntro
             eyebrow="Stay"
-            title="Choose how you want to wake up on the Murray."
-            description="Lakefront resorts with water views, riverside cabins with character, family holiday parks by the beach, or quiet nature lodges surrounded by bush. The right stay turns a visit into a proper escape."
+            title="Four ways to wake up on the Murray."
+            description="A balcony over Lake Mulwala. A cabin with a path to the river. A holiday park where the kids disappear on bikes until dinner. A lodge in the bush near Barmah where you hear birds instead of traffic. Pick the one that sounds like your kind of morning."
           />
 
           <div className="grid gap-6 md:grid-cols-2">
@@ -53,8 +53,8 @@ export default function StayPage() {
         <Container className="space-y-10">
           <SectionIntro
             eyebrow="Where To Base Yourself"
-            title="Match your stay to the destination."
-            description="Each part of Moira Shire has its own rhythm — family beach towns, polished lake resorts, produce country pit stops, and quieter nature retreats. Find the one that fits."
+            title="The town makes the trip."
+            description="Cobram and Tocumwal for the beaches. Yarrawonga for the lake and the golf. Barmah for the bush. Numurkah for the food. Each one puts you close to different things."
           />
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {destinations.map((destination, index) => (
@@ -79,11 +79,11 @@ export default function StayPage() {
 
       <ImageCta
         eyebrow="Next"
-        title="Now pair your stay with something to do."
-        description="A beach day, a produce trail, a golf round, a river walk — the best trips here weave the stay and the experience together."
+        title="You've got the stay. Now fill the days."
+        description="Thompsons Beach is ten minutes from most Cobram stays. The Farm Gate Trail starts twenty minutes from Yarrawonga. Barmah's forest is a half-hour drive from just about anywhere."
         image="/local/lake/sebel-lake.jpg"
         primaryHref="/plan"
-        primaryLabel="Plan Your Trip"
+        primaryLabel="Explore Weekends"
       />
     </div>
   );

@@ -10,28 +10,28 @@ export const stayCategories: StayCategory[] = [
     slug: "lakefront-resorts",
     name: "Lakefront Resorts",
     summary:
-      "Wake up to water views, walk to the lake, and settle into the kind of stay that makes one night feel too short. Premium accommodation with real proximity to the action.",
+      "Yarrawonga and Lake Mulwala have the best of these. Balcony over the water, pool downstairs, golf course next door. The kind of stay where you cancel your plans for the second day because the room is too good to leave.",
     image: "/local/lake/sebel-lake.jpg"
   },
   {
     slug: "river-cabins-and-cottages",
     name: "River Cabins & Cottages",
     summary:
-      "Tucked along the river or a short walk from town, these self-contained stays give you a base with character and the freedom to set your own pace.",
+      "Self-contained places along the river or a short walk from town. Some have been there for decades. Most have a verandah, a barbecue, and a path to the water. You set your own schedule.",
     image: "/local/stay/racv-cobram-interior.jpg"
   },
   {
     slug: "holiday-parks-and-family-bases",
     name: "Holiday Parks & Family Bases",
     summary:
-      "The classic river holiday starts here — kids on bikes, riverfront afternoons, and three generations sharing a cabin. Simple, affordable, and right by the water.",
+      "Kids on bikes, riverfront sites, three generations sharing a cabin. The classic Murray River holiday. Most parks sit right on the water at Cobram, Tocumwal, or Yarrawonga, and they book out early over summer.",
     image: "/local/stay/racv-cobram-pool.jpg"
   },
   {
     slug: "nature-lodges-and-eco-escapes",
     name: "Nature Lodges & Eco Escapes",
     summary:
-      "Quiet, considered stays surrounded by bushland and river. For travellers who want to slow right down and wake up somewhere that feels genuinely away from it all.",
+      "Stays in the bush near Barmah or along the quieter stretches of river. You hear birds, not traffic. The nearest town might be twenty minutes away. That's the idea.",
     image: "/local/nature/paddock-ulupna-creek.jpg"
   }
 ];
