@@ -1,6 +1,7 @@
 import { destinations } from "@/content";
 import { DestinationGrid } from "@/components/sections/destination-grid";
 import { ImageCta } from "@/components/sections/image-cta";
+import { RiverDestinationsMapSection } from "@/components/sections/river-destinations-map-section";
 import { buildMetadata } from "@/lib/metadata";
 
 export const metadata = buildMetadata({
@@ -12,6 +13,7 @@ export const metadata = buildMetadata({
 export default function DestinationsPage() {
   return (
     <div className="pt-28">
+      <RiverDestinationsMapSection showActions={false} />
       <DestinationGrid
         destinations={destinations}
         eyebrow="Destinations"

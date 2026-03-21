@@ -13,6 +13,7 @@ import { FeaturedBeachesSection } from "@/components/sections/featured-beaches-s
 import { HeroSection } from "@/components/sections/hero-section";
 import { ImageCta } from "@/components/sections/image-cta";
 import { ItineraryFeature } from "@/components/sections/itinerary-feature";
+import { RiverDestinationsMapSection } from "@/components/sections/river-destinations-map-section";
 import { StoryGrid } from "@/components/sections/story-grid";
 import { StrategyFocus } from "@/components/sections/strategy-focus";
 import {
@@ -41,6 +42,7 @@ export default function HomePage() {
         secondaryCta={siteSettings.secondaryCta}
       />
       <BeachesMapSection />
+      <RiverDestinationsMapSection />
       <CampaignPostersSection posters={brandPosters} />
       <FeaturedBeachesSection beaches={beachHighlights} />
       <DestinationGrid

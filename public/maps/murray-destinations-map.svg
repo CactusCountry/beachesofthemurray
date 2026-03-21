@@ -1,0 +1,135 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grain" width="42" height="42" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="7" r="1.1" fill="#D7CDBB" fill-opacity="0.65"/>
+      <circle cx="18" cy="14" r="0.9" fill="#D7CDBB" fill-opacity="0.55"/>
+      <circle cx="31" cy="10" r="0.8" fill="#D7CDBB" fill-opacity="0.42"/>
+      <circle cx="12" cy="29" r="0.8" fill="#D7CDBB" fill-opacity="0.46"/>
+      <circle cx="27" cy="33" r="1" fill="#D7CDBB" fill-opacity="0.58"/>
+      <circle cx="38" cy="24" r="0.8" fill="#D7CDBB" fill-opacity="0.42"/>
+    </pattern>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#B8A57C" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="760" fill="#F3EDE2"/>
+  <rect width="1200" height="760" fill="url(#grain)"/>
+
+  <path
+    d="M74 322C122 296 166 274 214 284C274 297 309 328 364 317C421 306 464 240 520 218C564 201 609 209 655 195C701 180 726 150 764 156C803 162 830 228 870 252C912 277 952 267 991 282C1039 300 1070 354 1118 376"
+    stroke="#B8E1C6"
+    stroke-width="88"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-dasharray="3 18"
+    opacity="0.9"
+  />
+
+  <path
+    d="M80 305C125 282 157 259 204 268C250 277 285 316 338 311C389 307 430 254 486 229C539 204 587 198 636 178C684 159 720 129 758 135C800 141 834 204 873 232C911 260 951 250 993 261C1046 274 1086 331 1130 355"
+    stroke="#DABB65"
+    stroke-width="74"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.86"
+  />
+
+  <path
+    d="M45 312C93 300 126 250 173 252C213 254 238 309 278 313C325 317 352 250 396 237C445 222 482 252 531 228C572 208 586 153 629 145C669 137 696 184 735 195C777 206 810 170 850 184C894 199 921 265 965 277C1013 290 1051 276 1096 292C1139 307 1161 345 1182 369"
+    stroke="#2D647F"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <path
+    d="M218 480C247 471 285 463 320 470C355 477 394 490 432 515"
+    stroke="#C8D5DB"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-dasharray="2 14"
+    opacity="0.9"
+  />
+
+  <g fill="#1F6C46" fill-opacity="0.95">
+    <ellipse cx="148" cy="218" rx="17" ry="12"/>
+    <ellipse cx="131" cy="228" rx="12" ry="10"/>
+    <ellipse cx="164" cy="229" rx="12" ry="10"/>
+    <rect x="146" y="229" width="4" height="18" rx="2"/>
+    <ellipse cx="275" cy="240" rx="14" ry="11"/>
+    <ellipse cx="260" cy="248" rx="10" ry="8"/>
+    <ellipse cx="289" cy="249" rx="10" ry="8"/>
+    <rect x="273" y="249" width="4" height="14" rx="2"/>
+    <ellipse cx="521" cy="170" rx="16" ry="12"/>
+    <ellipse cx="503" cy="181" rx="12" ry="9"/>
+    <ellipse cx="540" cy="182" rx="12" ry="9"/>
+    <rect x="519" y="182" width="4" height="18" rx="2"/>
+    <ellipse cx="686" cy="111" rx="15" ry="11"/>
+    <ellipse cx="672" cy="120" rx="10" ry="8"/>
+    <ellipse cx="700" cy="121" rx="10" ry="8"/>
+    <rect x="684" y="121" width="4" height="16" rx="2"/>
+    <ellipse cx="937" cy="210" rx="18" ry="12"/>
+    <ellipse cx="919" cy="220" rx="12" ry="9"/>
+    <ellipse cx="955" cy="222" rx="12" ry="9"/>
+    <rect x="935" y="222" width="4" height="17" rx="2"/>
+    <ellipse cx="1090" cy="320" rx="16" ry="11"/>
+    <ellipse cx="1074" cy="329" rx="10" ry="8"/>
+    <ellipse cx="1106" cy="330" rx="10" ry="8"/>
+    <rect x="1088" y="330" width="4" height="15" rx="2"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <g>
+      <circle cx="112" cy="288" r="8" fill="#FFF9EE"/>
+      <line x1="112" y1="288" x2="112" y2="152" stroke="#FFF9EE" stroke-width="3"/>
+      <rect x="44" y="108" width="136" height="40" rx="12" fill="#355F78"/>
+      <text x="112" y="134" fill="#F8F3EB" font-size="20" font-family="Avenir Next, Arial, sans-serif" text-anchor="middle">Barmah</text>
+    </g>
+    <g>
+      <circle cx="232" cy="462" r="8" fill="#FFF9EE"/>
+      <line x1="232" y1="462" x2="232" y2="574" stroke="#FFF9EE" stroke-width="3"/>
+      <rect x="152" y="580" width="160" height="40" rx="12" fill="#355F78"/>
+      <text x="232" y="606" fill="#F8F3EB" font-size="20" font-family="Avenir Next, Arial, sans-serif" text-anchor="middle">Nathalia</text>
+    </g>
+    <g>
+      <circle cx="432" cy="515" r="8" fill="#FFF9EE"/>
+      <line x1="432" y1="515" x2="432" y2="642" stroke="#FFF9EE" stroke-width="3"/>
+      <rect x="323" y="648" width="218" height="40" rx="12" fill="#355F78"/>
+      <text x="432" y="674" fill="#F8F3EB" font-size="20" font-family="Avenir Next, Arial, sans-serif" text-anchor="middle">Numurkah</text>
+    </g>
+    <g>
+      <circle cx="514" cy="171" r="8" fill="#FFF9EE"/>
+      <line x1="514" y1="171" x2="514" y2="72" stroke="#FFF9EE" stroke-width="3"/>
+      <rect x="418" y="28" width="192" height="40" rx="12" fill="#355F78"/>
+      <text x="514" y="54" fill="#F8F3EB" font-size="20" font-family="Avenir Next, Arial, sans-serif" text-anchor="middle">Tocumwal</text>
+    </g>
+    <g>
+      <circle cx="766" cy="205" r="8" fill="#FFF9EE"/>
+      <line x1="766" y1="205" x2="766" y2="84" stroke="#FFF9EE" stroke-width="3"/>
+      <rect x="649" y="40" width="234" height="40" rx="12" fill="#355F78"/>
+      <text x="766" y="66" fill="#F8F3EB" font-size="20" font-family="Avenir Next, Arial, sans-serif" text-anchor="middle">Cobram / Barooga</text>
+    </g>
+    <g>
+      <circle cx="940" cy="264" r="8" fill="#FFF9EE"/>
+      <line x1="940" y1="264" x2="940" y2="138" stroke="#FFF9EE" stroke-width="3"/>
+      <rect x="804" y="94" width="272" height="40" rx="12" fill="#355F78"/>
+      <text x="940" y="120" fill="#F8F3EB" font-size="20" font-family="Avenir Next, Arial, sans-serif" text-anchor="middle">Yarrawonga / Mulwala</text>
+    </g>
+    <g>
+      <circle cx="1098" cy="318" r="8" fill="#FFF9EE"/>
+      <line x1="1098" y1="318" x2="1098" y2="486" stroke="#FFF9EE" stroke-width="3"/>
+      <rect x="997" y="492" width="202" height="40" rx="12" fill="#355F78"/>
+      <text x="1098" y="518" fill="#F8F3EB" font-size="20" font-family="Avenir Next, Arial, sans-serif" text-anchor="middle">Bundalong</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="750" y="590" width="344" height="108" rx="22" fill="#F8F3EB" fill-opacity="0.88"/>
+    <text x="780" y="629" fill="#0E1F2A" font-size="20" font-family="Avenir Next, Arial, sans-serif" font-weight="600">Gold river edges</text>
+    <text x="780" y="657" fill="#4A5560" font-size="18" font-family="Avenir Next, Arial, sans-serif">Beach, lake, and water-led bases</text>
+    <text x="780" y="690" fill="#4A5560" font-size="18" font-family="Avenir Next, Arial, sans-serif">Grey inland line</text>
+    <text x="964" y="690" fill="#4A5560" font-size="18" font-family="Avenir Next, Arial, sans-serif">Produce and nature detours</text>
+    <line x1="918" y1="685" x2="952" y2="685" stroke="#C8D5DB" stroke-width="6" stroke-dasharray="2 14" stroke-linecap="round"/>
+  </g>
+</svg>

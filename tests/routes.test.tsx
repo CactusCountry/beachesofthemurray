@@ -16,10 +16,10 @@ describe("route smoke tests", () => {
   it("renders the homepage hero and supporting sections", async () => {
     const html = renderToStaticMarkup(<HomePage />);
 
-    expect(html).toContain("Inland beaches, river towns, and year-round escapes");
+    expect(html).toContain("Real beaches on a real river. Country towns that are worth the stay.");
     expect(html).toContain("Tocumwal Town Beach");
-    expect(html).toContain("Browse the shire by place");
-    expect(html).toContain("Built around the priorities in the local tourism strategy");
+    expect(html).toContain("See how the towns sit along the river.");
+    expect(html).toContain("Six destinations. Each one a different kind of weekend.");
   });
 
   it("renders the core landing pages", async () => {
@@ -29,11 +29,12 @@ describe("route smoke tests", () => {
     const planHtml = renderToStaticMarkup(<PlanPage />);
     const storiesHtml = renderToStaticMarkup(<StoriesPage />);
 
-    expect(destinationHtml).toContain("Choose a destination story");
-    expect(seeDoHtml).toContain("Beaches, produce, lake leisure");
-    expect(stayHtml).toContain("Pick the style of stay");
-    expect(planHtml).toContain("Everything you need to turn a beach stop");
-    expect(storiesHtml).toContain("Editorial pieces that help the strategy");
+    expect(destinationHtml).toContain("See how the towns sit along the river.");
+    expect(destinationHtml).toContain("Six towns, six different weekends.");
+    expect(seeDoHtml).toContain("Morning on the sand. Afternoon somewhere you didn&#x27;t expect.");
+    expect(stayHtml).toContain("Four ways to wake up on the Murray.");
+    expect(planHtml).toContain("Three weekends, ready to go.");
+    expect(storiesHtml).toContain("What a weekend here actually looks like.");
   });
 
   it("renders destination pages from structured content", async () => {
@@ -56,6 +57,6 @@ describe("route smoke tests", () => {
     });
 
     expect(metadata.title).toBe("Tocumwal Beaches | Beaches of The Murray");
-    expect(metadata.description).toContain("sandy banks under towering river red gums");
+    expect(metadata.description).toContain("Tocumwal has more river beaches than any town on the Murray");
   });
 });
