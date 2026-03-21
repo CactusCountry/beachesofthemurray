@@ -16,7 +16,7 @@ describe("route smoke tests", () => {
   it("renders the homepage hero and supporting sections", async () => {
     const html = renderToStaticMarkup(<HomePage />);
 
-    expect(html).toContain("Real beaches on a real river. Country towns that are worth the stay.");
+    expect(html).toContain("The best river beaches in Australia. And a dozen reasons to stay.");
     expect(html).toContain("Tocumwal Town Beach");
     expect(html).toContain("See how the towns sit along the river.");
     expect(html).toContain("Six destinations. Each one a different kind of weekend.");

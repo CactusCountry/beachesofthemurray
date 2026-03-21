@@ -35,10 +35,10 @@ export type SiteSettings = {
 
 export const siteSettings: SiteSettings = {
   brandName: "Beaches of The Murray",
-  brandTagline: "Where the river meets the sand",
+  brandTagline: "The best river beaches in Australia",
   description:
-    "Sandy river beaches, farm gate trails, and country towns worth staying for. Moira Shire, Victoria — on the Murray.",
-  locationLabel: "Moira Shire, Victoria",
+    "Sandy river beaches, farm gate trails, and country towns worth staying for. On the Murray, between Tocumwal and Yarrawonga.",
+  locationLabel: "On the Murray, Victoria",
   primaryCta: {
     label: "Start Exploring",
     href: "/plan"

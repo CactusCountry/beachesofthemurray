@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "See & Do | Beaches of The Murray",
   description:
-    "River beaches, farm gate trails, lake leisure, golf, nature walks, and events across Moira Shire."
+    "River beaches, farm gate trails, lake leisure, golf, nature walks, and events along the Murray."
 });
 
 export default function SeeDoPage() {

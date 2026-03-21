@@ -7,7 +7,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Destinations | Beaches of The Murray",
   description:
-    "River beaches, lake towns, produce country, and red gum forests — explore the destinations of Moira Shire."
+    "River beaches, lake towns, produce country, and red gum forests — explore the destinations along the Murray."
 });
 
 export default function DestinationsPage() {
@@ -18,7 +18,7 @@ export default function DestinationsPage() {
         destinations={destinations}
         eyebrow="Destinations"
         title="Six towns, six different weekends."
-        description="River beaches at Tocumwal and Cobram. A lake with a sunken forest at Yarrawonga. Ancient red gums at Barmah. Farm gates through Numurkah. A boat ramp and a sandbar at Bundalong. Same shire, different trips."
+        description="River beaches at Tocumwal and Cobram. A lake with a sunken forest at Yarrawonga. Ancient red gums at Barmah. Farm gates through Numurkah. A boat ramp and a sandbar at Bundalong. Same river, different trips."
       />
       <ImageCta
         eyebrow="Weekend Ideas"

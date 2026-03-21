@@ -24,9 +24,9 @@ import {
 import { buildMetadata } from "@/lib/metadata";
 
 export const metadata = buildMetadata({
-  title: "Beaches of The Murray | Where the River Meets the Sand",
+  title: "Beaches of The Murray | The Best River Beaches in Australia",
   description:
-    "Sandy river beaches, farm gate trails, and country towns worth staying for. Moira Shire, Victoria."
+    "Sandy river beaches, farm gate trails, and country towns worth staying for. On the Murray, between Tocumwal and Yarrawonga."
 });
 
 export default function HomePage() {
@@ -34,8 +34,8 @@ export default function HomePage() {
     <>
       <HeroSection
         eyebrow={siteSettings.locationLabel}
-        title="Real beaches on a real river. Country towns that are worth the stay."
-        description="Sandy river beaches you can drive to from Melbourne. Farm gates selling what they grew that morning. Red gum forests older than the colony. This is Moira Shire, on the Murray, and one night here has a habit of turning into three."
+        title="The best river beaches in Australia. And a dozen reasons to stay."
+        description="Sandy river beaches you can drive to from Melbourne. Farm gates selling what they grew that morning. Red gum forests older than the colony. Chocolate-making classes on the riverbank. Championship golf courses through the bush. This is the Murray, and one night here has a habit of turning into three."
         image={destinations[0].heroImage}
         logoSrc="/brand/beaches-of-the-murray-logo.svg"
         primaryCta={siteSettings.primaryCta}
@@ -49,7 +49,7 @@ export default function HomePage() {
         destinations={getFeaturedDestinations(4)}
         eyebrow="Destinations"
         title="Six destinations. Each one a different kind of weekend."
-        description="Tocumwal has the beaches. Cobram has Thompsons Beach and the golf. Yarrawonga has the lake. Barmah has the forest. Numurkah has the food. Bundalong has the junction. Pick one and go from there."
+        description="Tocumwal has twenty-four river beaches and a chocolate school. Cobram has nationally ranked sand and championship golf. Yarrawonga has the lake and the sunken forest. Barmah has ancient red gums and Yorta Yorta heritage. Numurkah has the farm gates. Bundalong has the junction."
         actionHref="/destinations"
         actionLabel="View All Destinations"
       />
