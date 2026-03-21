@@ -55,7 +55,7 @@ export default async function DestinationPage({ params }: DestinationPageProps) 
   return (
     <div className="pt-24">
       <section
-        className="relative overflow-hidden px-5 py-16 text-white sm:px-8 sm:py-20"
+        className="relative overflow-hidden px-5 py-14 text-white sm:px-8 sm:py-20"
         style={{
           backgroundImage: `linear-gradient(180deg, rgba(8,18,28,0.28), rgba(8,18,28,0.82)), url(${destination.heroImage})`,
           backgroundPosition: "center",
@@ -69,23 +69,27 @@ export default async function DestinationPage({ params }: DestinationPageProps) 
               {destination.mapLabel}
             </p>
             <div className="space-y-4">
-              <h1 className="font-display text-5xl leading-none sm:text-7xl">
+              <h1 className="font-display text-[2.9rem] leading-none sm:text-7xl">
                 {destination.name}
               </h1>
-              <p className="text-lg leading-8 text-white/78">{destination.tagline}</p>
-              <p className="max-w-2xl text-base leading-7 text-white/74 sm:text-lg">
+              <p className="text-base leading-7 text-white/80 sm:text-lg sm:leading-8">
+                {destination.tagline}
+              </p>
+              <p className="max-w-2xl text-[15px] leading-6 text-white/74 sm:text-lg sm:leading-7">
                 {destination.summary}
               </p>
             </div>
-            <div className="flex flex-wrap gap-3">
-              <LinkButton href="/plan">Plan a Weekend Here</LinkButton>
-              <LinkButton href="/see-do" variant="secondary">
+            <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+              <LinkButton href="/plan" className="w-full sm:w-auto">
+                Plan a Weekend Here
+              </LinkButton>
+              <LinkButton href="/see-do" variant="secondary" className="w-full sm:w-auto">
                 Explore Nearby Experiences
               </LinkButton>
             </div>
           </div>
 
-          <div className="grid gap-4 rounded-[2rem] border border-white/12 bg-white/10 p-5 backdrop-blur">
+          <div className="grid gap-4 rounded-[2rem] border border-white/12 bg-white/10 p-4 backdrop-blur sm:p-5">
             <div>
               <p className="text-xs uppercase tracking-[0.28em] text-white/56">Best For</p>
               <div className="mt-4 flex flex-wrap gap-3">

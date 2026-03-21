@@ -52,7 +52,7 @@ export function DestinationGrid({
               >
                 <Link
                   href={`/destinations/${destination.slug}`}
-                  className="group relative flex min-h-[27rem] overflow-hidden rounded-[2rem] border border-ink/10 bg-ink shadow-glow"
+                  className="group relative flex min-h-[23rem] overflow-hidden rounded-[2rem] border border-ink/10 bg-ink shadow-glow sm:min-h-[27rem]"
                 >
                   <div
                     className="absolute inset-0 scale-100 transition-transform duration-700 group-hover:scale-105"
@@ -62,15 +62,15 @@ export function DestinationGrid({
                       backgroundSize: "cover"
                     }}
                   />
-                  <div className="relative mt-auto flex w-full flex-col gap-4 p-6 text-white sm:p-8">
+                  <div className="relative mt-auto flex w-full flex-col gap-3 p-5 text-white sm:gap-4 sm:p-8">
                     <p className="text-xs uppercase tracking-[0.28em] text-white/68">
                       {destination.mapLabel}
                     </p>
                     <div className="max-w-[34rem] space-y-3">
-                      <h3 className="font-display text-3xl leading-[0.95] sm:text-4xl">
+                      <h3 className="font-display text-[2.2rem] leading-[0.95] sm:text-4xl">
                         {destination.name}
                       </h3>
-                      <p className="max-w-xl text-base leading-7 text-white/82">
+                      <p className="max-w-xl text-[15px] leading-6 text-white/82 sm:text-base sm:leading-7">
                         {destination.tagline}
                       </p>
                       <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-white/72">

@@ -35,7 +35,7 @@ export function HeroSection({
   const backgroundScale = useTransform(scrollY, [0, 600], [1, 1.12]);
 
   return (
-    <section className="relative flex min-h-[100svh] items-end overflow-hidden bg-ink pt-24 text-white">
+    <section className="relative flex min-h-[88svh] items-end overflow-hidden bg-ink pt-20 text-white sm:min-h-[100svh] sm:pt-24">
       <motion.div
         aria-hidden="true"
         className="absolute inset-0"
@@ -49,14 +49,14 @@ export function HeroSection({
       />
       <div className="absolute inset-0 bg-grain opacity-80" />
 
-      <div className="relative z-10 mx-auto flex w-full max-w-shell px-5 pb-14 pt-20 sm:px-8 sm:pb-20">
+      <div className="relative z-10 mx-auto flex w-full max-w-shell px-5 pb-12 pt-14 sm:px-8 sm:pb-20 sm:pt-20">
         <div className="grid w-full gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
         <div className="max-w-3xl">
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.55, delay: 0.1 }}
-            className="mb-5 text-xs font-semibold uppercase tracking-[0.34em] text-gold/88"
+            className="mb-4 text-[11px] font-semibold uppercase tracking-[0.3em] text-gold/88 sm:mb-5 sm:text-xs sm:tracking-[0.34em]"
           >
             {eyebrow}
           </motion.p>
@@ -64,7 +64,7 @@ export function HeroSection({
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="max-w-4xl font-display text-[clamp(3.5rem,9vw,8rem)] leading-[0.9] tracking-[-0.04em]"
+            className="max-w-4xl font-display text-[clamp(2.95rem,13vw,5.4rem)] leading-[0.92] tracking-[-0.04em] sm:text-[clamp(3.5rem,9vw,8rem)] sm:leading-[0.9]"
           >
             {title}
           </motion.h1>
@@ -72,7 +72,7 @@ export function HeroSection({
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.35 }}
-            className="mt-6 max-w-xl text-base leading-7 text-white/76 sm:text-lg"
+            className="mt-5 max-w-xl text-[15px] leading-6 text-white/76 sm:mt-6 sm:text-lg sm:leading-7"
           >
             {description}
           </motion.p>
@@ -80,10 +80,12 @@ export function HeroSection({
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.5 }}
-            className="mt-10 flex flex-wrap gap-3"
+            className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:flex-wrap"
           >
-            <LinkButton href={primaryCta.href}>{primaryCta.label}</LinkButton>
-            <LinkButton href={secondaryCta.href} variant="secondary">
+            <LinkButton href={primaryCta.href} className="w-full sm:w-auto">
+              {primaryCta.label}
+            </LinkButton>
+            <LinkButton href={secondaryCta.href} variant="secondary" className="w-full sm:w-auto">
               {secondaryCta.label}
             </LinkButton>
           </motion.div>
