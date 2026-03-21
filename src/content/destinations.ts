@@ -77,10 +77,9 @@ export const destinations: Destination[] = [
     tagline: "The world's largest river red gum forest, Yorta Yorta country, and towns the highway misses.",
     summary:
       "Barmah National Park holds the largest river red gum forest on earth. It's Ramsar-listed wetland, Yorta Yorta country, and the kind of place where the canopy closes overhead and the light changes completely. The Dharnya Centre tells the story of the Yorta Yorta people who have lived here since the Creation. Nathalia, just south, is a small town with a surprisingly good pub and a genuinely warm main street. Come in winter, when fog sits on the river and the forest is at its most atmospheric.",
-    heroImage:
-      "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/local/nature/barmah-aerial.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80",
+      "/local/nature/barmah-aerial.jpg",
       "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1474552226712-ac0f0961a954?auto=format&fit=crop&w=1200&q=80"
     ],

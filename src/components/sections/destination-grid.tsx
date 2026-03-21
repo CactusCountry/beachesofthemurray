@@ -42,6 +42,7 @@ export function DestinationGrid({
         <div className="grid gap-5 lg:grid-cols-12">
           {destinations.map((destination, index) => {
             const isFeature = index === 0 || index === 3;
+            const spotlight = destination.bestFor.slice(0, 2).join(" / ");
 
             return (
               <Reveal
@@ -51,26 +52,29 @@ export function DestinationGrid({
               >
                 <Link
                   href={`/destinations/${destination.slug}`}
-                  className="group relative flex min-h-[25rem] overflow-hidden rounded-[2rem] border border-ink/10 bg-ink shadow-glow"
+                  className="group relative flex min-h-[27rem] overflow-hidden rounded-[2rem] border border-ink/10 bg-ink shadow-glow"
                 >
                   <div
                     className="absolute inset-0 scale-100 transition-transform duration-700 group-hover:scale-105"
                     style={{
-                      backgroundImage: `linear-gradient(180deg, rgba(8,18,28,0.12) 0%, rgba(8,18,28,0.35) 48%, rgba(8,18,28,0.88) 100%), url(${destination.heroImage})`,
+                      backgroundImage: `linear-gradient(180deg, rgba(8,18,28,0.02) 0%, rgba(8,18,28,0.12) 44%, rgba(8,18,28,0.42) 72%, rgba(8,18,28,0.78) 100%), url(${destination.heroImage})`,
                       backgroundPosition: "center",
                       backgroundSize: "cover"
                     }}
                   />
                   <div className="relative mt-auto flex w-full flex-col gap-4 p-6 text-white sm:p-8">
-                    <p className="text-xs uppercase tracking-[0.28em] text-white/62">
+                    <p className="text-xs uppercase tracking-[0.28em] text-white/68">
                       {destination.mapLabel}
                     </p>
-                    <div className="space-y-2">
-                      <h3 className="font-display text-3xl leading-none sm:text-4xl">
+                    <div className="max-w-[34rem] space-y-3">
+                      <h3 className="font-display text-3xl leading-[0.95] sm:text-4xl">
                         {destination.name}
                       </h3>
-                      <p className="max-w-lg text-sm leading-6 text-white/74 sm:text-base">
-                        {destination.summary}
+                      <p className="max-w-xl text-base leading-7 text-white/82">
+                        {destination.tagline}
+                      </p>
+                      <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-white/72">
+                        {spotlight}
                       </p>
                     </div>
                     <p className="text-xs font-semibold uppercase tracking-[0.24em] text-white/88">
