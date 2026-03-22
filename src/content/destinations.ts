@@ -94,9 +94,9 @@ export const destinations: Destination[] = [
   {
     slug: "numurkah-and-farm-gate",
     name: "Numurkah & the Farm Gate Trail",
-    tagline: "The food run. Olive oil, farm gates, cellar doors, and roadside honesty boxes.",
+    tagline: "Farm gates, silo art, and the best driving country between Melbourne and the Murray.",
     summary:
-      "The Murray Farm Gate Trail threads through the country around Numurkah, linking producers who actually grow what they sell. Heirloom tomatoes, purple garlic, cold-pressed olive oil, free-range pork, local honey. Some stops have cellar doors. Others have honesty boxes at the gate and a dog asleep on the porch. It's the kind of drive where you leave with a full boot and a mental list of things to cook when you get home. Autumn is peak season, but the trail runs year-round.",
+      "The Murray Farm Gate Trail threads through the country around Numurkah, linking producers who actually grow what they sell. Heirloom tomatoes, purple garlic, cold-pressed olive oil, free-range pork, local honey. Some stops have cellar doors. Others have honesty boxes at the gate and a dog asleep on the porch. This is also the heart of the Melbourne to the Murray Silo Art Trail — six painted grain silos at Katamatite, Tungamah, Picola, St James, Devenish, and Goorambat, each one telling a local story through large-scale murals. Autumn is peak season for the produce, but the silos and the driving are good year-round.",
     heroImage: "/local/produce/manto-produce.jpg",
     gallery: [
       "/local/produce/manto-produce.jpg",
@@ -106,9 +106,9 @@ export const destinations: Destination[] = [
     highlights: [
       "The Murray Farm Gate Trail, a self-guided drive linking growers, makers, and cellar doors",
       "Seasonal produce at its best in autumn: heirloom tomatoes, olive oil, local honey",
-      "Pairs naturally with a beach morning at Cobram or Tocumwal"
+      "The Melbourne to the Murray Silo Art Trail — six painted silos at Katamatite, Tungamah, Picola, and beyond"
     ],
-    bestFor: ["Food and produce trails", "Road trips", "Autumn weekends"],
+    bestFor: ["Food and produce trails", "Silo art road trips", "Autumn weekends"],
     mapLabel: "Numurkah"
   },
   {

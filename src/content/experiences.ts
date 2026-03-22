@@ -45,11 +45,20 @@ export const experiences: Experience[] = [
     relatedDestinations: ["barmah-and-nathalia", "numurkah-and-farm-gate"]
   },
   {
+    slug: "silo-art-trail",
+    name: "Silo Art Trail",
+    category: "Art & Culture",
+    summary:
+      "Six painted silos between Goorambat and Picola, each one telling a local story. Clydesdales at Katamatite by Tim Bowtell. The first silo painted by an Australian woman at Tungamah by Sobrane Simcock. A WWII tribute at Picola by Jimmy D'Vate. The Melbourne to the Murray route links them all, and the small towns in between are half the reason to go.",
+    image: "/local/experiences/cactus-country.jpg",
+    relatedDestinations: ["numurkah-and-farm-gate", "yarrawonga-mulwala", "barmah-and-nathalia"]
+  },
+  {
     slug: "events-and-road-trips",
     name: "Events & Road Trips",
     category: "Events",
     summary:
-      "Cactus Country's twelve acres of desert gardens. The Tungamah Silo Art. Tocumwal's aviation museum and gliding from the old WWII aerodrome. Seasonal festivals run through the calendar, but the fixed attractions are worth the drive on any weekend.",
+      "Cactus Country's twelve acres of desert gardens. Tocumwal's aviation museum and gliding from the old WWII aerodrome. The Melbourne to the Murray Silo Art Trail through six small towns. Seasonal festivals run through the calendar, but the fixed attractions are worth the drive on any weekend.",
     image: "/local/experiences/cactus-country.jpg",
     relatedDestinations: ["yarrawonga-mulwala", "barmah-and-nathalia", "tocumwal-beaches"]
   }

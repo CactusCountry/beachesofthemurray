@@ -61,5 +61,14 @@ export const stories: Story[] = [
     image: "/beaches/ulupna-beach.jpg",
     theme: "Nature",
     readTime: "6 min read"
+  },
+  {
+    slug: "silo-art-road-trip",
+    title: "Melbourne to the Murray: The Silo Art Trail",
+    excerpt:
+      "Six painted grain silos between Goorambat and Picola. Clydesdales at Katamatite. A WWII tribute at Picola. Australia's first female silo artist at Tungamah. The drive takes a day, but the pubs and small towns along the way will tempt you into two.",
+    image: "/local/experiences/cactus-country.jpg",
+    theme: "Road Trip",
+    readTime: "5 min read"
   }
 ];

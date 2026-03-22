@@ -49,7 +49,7 @@ export default function HomePage() {
         destinations={getFeaturedDestinations(4)}
         eyebrow="Destinations"
         title="Six destinations. Each one a different kind of weekend."
-        description="Tocumwal has twenty-four river beaches and a chocolate school. Cobram has nationally ranked sand and championship golf. Yarrawonga has the lake and the sunken forest. Barmah has ancient red gums and Yorta Yorta heritage. Numurkah has the farm gates. Bundalong has the junction."
+        description="Tocumwal has twenty-four river beaches and a chocolate school. Cobram has nationally ranked sand and championship golf. Yarrawonga has the lake and the sunken forest. Barmah has ancient red gums and Yorta Yorta heritage. Numurkah has the farm gates and the Silo Art Trail. Bundalong has the junction."
         actionHref="/destinations"
         actionLabel="View All Destinations"
       />
